@@ -7,6 +7,12 @@ A tool implemented in Python for the Cuba Weather project to work with the munic
 ## Install
 
 ```bash
+pip install cuba-weather-municipality
+```
+
+or
+
+```bash
 pip install git+https://github.com/cuba-weather/cuba-weather-municipality-python
 ```
 
