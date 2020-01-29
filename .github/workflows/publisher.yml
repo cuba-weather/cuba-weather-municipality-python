@@ -1,4 +1,4 @@
-name: Upload Python Package
+name: Publisher
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
     - 'v*.*.*'
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
