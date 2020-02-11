@@ -28,10 +28,10 @@ class MunicipalityRepository:
       Damerau-Levenshtein distance.
     '''
 
-    municipalityQuery = curateMunicipality(municipalityQuery);
+    municipalityQuery = curateMunicipality(municipalityQuery)
     
-    bestMunicipality : MunicipalityModel = municipalities[0];
-    bestDistance : int = distance(municipalityQuery, bestMunicipality.nameCured);
+    bestMunicipality : MunicipalityModel = municipalities[0]
+    bestDistance : int = distance(municipalityQuery, bestMunicipality.nameCured)
     
     for i in range(1, len(municipalities)):
       tmpMunicipality = municipalities[i]
