@@ -1,7 +1,7 @@
 from ..models import MunicipalityModel
 
-# Cuban municipalities
-municipalities = [
+#Cuban municipalities
+municipalities =[
   MunicipalityModel(
     name='Moa',
     lat=20.64,
@@ -933,10 +933,10 @@ municipalities = [
     nameCured='santa cruz del sur',
   ),
   MunicipalityModel(
-    name='La Habana del Este',
+    name='Habana del Este',
     lat=23.156944,
     lon=-82.296944,
-    nameCured='la habana del este',
+    nameCured='habana del este',
   ),
   MunicipalityModel(
     name='Aguada de Pasajeros',
